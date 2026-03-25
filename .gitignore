@@ -1,0 +1,51 @@
+# Windows/macOS/Linux
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Node / React Native (Expo)
+node_modules/
+.expo/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+*.log
+
+# Flutter specific inside subdir
+flutter_validation/build/
+flutter_validation/.dart_tool/
+flutter_validation/.packages
+flutter_validation/.pub/
+flutter_validation/.pub-cache/
+flutter_validation/android/.gradle/
+flutter_validation/android/local.properties
+flutter_validation/android/key.properties
+flutter_validation/ios/Flutter/App.framework
+flutter_validation/ios/Flutter/Flutter.framework
+flutter_validation/ios/Flutter/Generated.xcconfig
+flutter_validation/ios/Flutter/flutter_export_environment.sh
+flutter_validation/ios/Pods/
+flutter_validation/ios/.symlinks/
+
+# React Native specific inside subdir
+react_native_validation/node_modules/
+react_native_validation/.expo/
+react_native_validation/android/.gradle/
+react_native_validation/android/build/
+react_native_validation/android/local.properties
+react_native_validation/ios/Pods/
+react_native_validation/ios/build/
